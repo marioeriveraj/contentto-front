@@ -1,0 +1,3 @@
+[submodule "conektaphp"]
+	path = conektaphp
+	url = https://github.com/MarcoMireles/conttento_front.git

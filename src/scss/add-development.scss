@@ -1,0 +1,29 @@
+.btn-reserva-express{
+    width: 33px;
+    height: 33px;
+    display: block;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    border: 1px solid #cccccc;
+    border-radius: 100%;
+    margin: 0px 3px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+input.reserva-express{
+    width: 33px;
+    height: 33px;
+    display: block;
+    float: left;
+    padding: 0px;
+    text-align: center;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

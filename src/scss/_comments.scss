@@ -1,0 +1,30 @@
+$gray: #d0cfcd;
+$yellow: #ffc428;
+#comments {
+  textarea {
+    padding: 1rem;
+    width: 100%;
+  }
+  .strs {
+    margin-bottom: 1rem;
+    p {
+      margin: 0;
+    }
+    .str {
+      unicode-bidi: bidi-override;
+      direction: rtl;
+      color: $gray;
+      font-size: 15px;
+      &:hover {
+        color: $yellow;
+      }
+    } 
+  }
+  .send {
+    background-color: $yellow;
+    border-radius: 20px;
+    padding: 0.25rem 1rem;
+    border: none;
+    float: right;
+  }
+}

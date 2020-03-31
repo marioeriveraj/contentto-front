@@ -1,0 +1,17 @@
+.navbar {
+  .navbar-nav {
+    .nav-item {
+      padding: 0 0.5rem;
+      .nav-link {
+        color: $white;
+        padding: 0;
+        &:hover {
+          background-color: $blue;
+        }
+      }
+    }
+  }
+  &.navbar-shrink {
+    background-color: $blue;
+  }
+}

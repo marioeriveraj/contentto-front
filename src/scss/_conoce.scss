@@ -1,0 +1,58 @@
+#hero-about {
+  padding: 10rem 0;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#conoce {
+  background-color: $red;
+  .grid {
+    .grid-item {
+      padding-bottom: 100%;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+  }
+  .txt {
+    padding: 6rem;
+    .title {
+      span {
+        color: #d0cfcd;
+      }
+    }
+    .paragraph {
+      color: $white;
+    }
+  }
+  .grid {
+    display: grid;
+    height: 100%;
+    .box-1 {
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+    .box-2 {
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 3;
+      grid-row-end: 4;
+    }
+    .box-3 {
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      grid-column-start: 4;
+      grid-row-start: 3;
+      grid-row-end: 4;
+    }
+  }
+}

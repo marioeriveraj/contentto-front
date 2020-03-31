@@ -1,0 +1,41 @@
+#hero-guardados {
+  padding: 12rem 0 2rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  .title {
+    color: $black;
+  }
+}
+#card-style {
+  background-color: #f1f1f0;
+  padding: 6rem 0;
+  .card-img {
+    // height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100%;
+  }
+  .card-body {
+    padding: 0.75rem;
+    .card-title {
+      font-size: 20px;
+      margin-bottom: 0.25rem;
+    }
+    .rtn {
+      i,
+      span {
+        color: $gray;
+        display: block;
+      }
+    }
+    .card-text {
+      font-size: 14px;
+      margin-bottom: 2rem;
+    }
+    .btn-warning {
+      font-size: 14px;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+#roms {
+  background-color: $gray;
+  padding: 6rem 0;
+  .card {
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    .card-header {
+      padding: 0;
+      position: relative;
+      .rating-star {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        color: $white;
+      }
+    }
+    .card-body {
+      background-color: transparent;
+      .guest {
+        text-align: right;
+        i {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}

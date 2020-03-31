@@ -1,0 +1,16 @@
+.header {
+  padding: 16rem 0 10rem 0;
+  background-size: cover;
+  .form-style {
+    color: black;
+    border: 2px solid white;
+    background-color: white;
+    padding: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-bottom: 2rem;
+  }
+  @media (min-width: 1280px) and (max-width: 1399.98px) {
+    padding: 10rem 0;
+  }
+}

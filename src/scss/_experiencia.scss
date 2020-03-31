@@ -1,0 +1,57 @@
+#exp {
+  padding: 6rem 0;
+  .title {
+    width: 30%;
+    margin: auto;
+    color: $black;
+    margin-bottom: 2rem;
+    span {
+      color: $gray;
+    }
+  }
+  .style-carousel {
+    transform: translateX(-15%);
+    .img-gllry {
+      margin-left: 15px;
+      &:last-child {
+        margin-left: 0;
+      }
+    }
+  }
+  .slick-arrow {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: $gray;
+    &.slick-prev {
+      right: 15px;
+    }
+  }
+  .slick-dots {
+    padding: 0;
+    margin-top: 1rem;
+    li {
+      display: inline;
+      margin-left: 0.85em;
+      line-height: 0;
+      outline: none;
+      button {
+        border-radius: 15px;
+        width: 15px;
+        height: 15px;
+        background-color: $gray;
+        color: transparent;
+        border: none;
+        padding: 0;
+        &:focus {
+          outline: none;
+        }
+      }
+      &.slick-active {
+        button {
+          background-color: $yellow;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+#cta {
+  background-color: $blue;
+  padding: 8rem 0;
+  position: relative;
+  background-image: url("../images/landing.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: contain;
+  .prrfo {
+    color: $white;
+  }
+  .class-circle-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
